@@ -30,6 +30,9 @@ ul{
     color: white;
     padding: 10px 30px;
 }
+.row{
+    display: flex;
+}
 
 /* HEADER  */
 header{
@@ -50,3 +53,23 @@ header{
     padding-left: 30px;
 }
 /* MAIN  */
+#top-main{
+    background-color: #b4d0e7;  
+}
+.jumbo-container{
+    position: relative;
+    top: 50px;
+}
+#top-main> .container> h1{
+    font-size: 3rem;
+    padding-bottom: 30px;
+
+}
+
+.row1-col1> button{
+    margin: 30px 0;
+
+}
+.row1-col1> i{
+    padding-top: 50px;
+}
