@@ -83,6 +83,17 @@ ul{
     height: 1px;
     width: 50px;
 }
+/* FONT AWESOME STYLE  */
+.fa-check{
+    color: #74C0FC;
+}
+.fa-earth-americas{
+    color: #e0dcdd; 
+}
+.fa-caret-up{
+    color: white;
+}
+
 
 /* HEADER  */
 header{
@@ -186,7 +197,10 @@ header{
 #find-partner{
     padding-top: 100px;
 }
-
+/* INFO CLIENT SECTION  */
+#info-client{
+    padding: 100px 0;
+}
 /* FOOTER  */
 footer{
     background-color: black;
