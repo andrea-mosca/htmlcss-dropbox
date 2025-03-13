@@ -22,8 +22,16 @@ ul{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.container-xs{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
 }
 .blue-button{
     background-color: #0062fe;
@@ -32,6 +40,20 @@ ul{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+[class*='col'] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.col-30{
+    width: 30%;
+}
+.col-70{
+    width: 70%;
 }
 
 /* HEADER  */
@@ -53,23 +75,26 @@ header{
     padding-left: 30px;
 }
 /* MAIN  */
-#top-main{
+#jumbo{
     background-color: #b4d0e7;  
 }
-.jumbo-container{
+
+
+#jumbo .container-xs{
     position: relative;
     top: 50px;
 }
-#top-main> .container> h1{
+#jumbo h1{
     font-size: 3rem;
-    padding-bottom: 30px;
-
+    padding-bottom: 20px;
 }
-
-.row1-col1> button{
-    margin: 30px 0;
-
+#jumbo .col-30{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
-.row1-col1> i{
-    padding-top: 50px;
+#jumbo .arrow{
+    margin-top: auto;
+    margin-bottom: 60px;
 }
