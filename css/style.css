@@ -44,6 +44,11 @@ ul{
     color: white;
     padding: 10px 30px;
 }
+.white-button{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -165,4 +170,14 @@ header{
 .enterprise{
     display: flex;
     border: 1px solid gray;
+}
+/* FIND PARTNER SECTION  */
+#find-partner{
+    padding-top: 100px;
+}
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
 }
